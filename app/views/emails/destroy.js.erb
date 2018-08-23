@@ -1,1 +1,3 @@
-$('.<%= email.id %>').html("<%= j (render @emails) %>");
+$(document).ready(function(){
+	$('.<%= email.id %>').html("<%= j (render @emails) %>");
+});

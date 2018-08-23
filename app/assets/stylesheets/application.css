@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+.read {
+	background-color: whitesmoke;
+}
+
+.read a{
+	color: black;
+}
+
+.read a:hover {
+	color: #fff;
+}
+.ur {
+	background-color: #2A9D8F;
+}
+
+.ur a {
+	color: #fff;
+	font-weight: bold;
+}
+
+#box{
+	text-align: center;
+}
+
+
+/* bootstrap overwrite :) */
+table a:not(.btn), .table a:not(.btn){
+	text-decoration: none;
+}
