@@ -7,6 +7,8 @@ Anisora & Marion
 ## En production
 Lien -> [Mail viewer](https://emailviewerthp18.herokuapp.com/)<br />
 
+Pour actualiser la base de données, je dois faire quelques manip. 
+
 ## En local
 1. Se positionner sur le dossier avec le terminal
 2. Lancer $ bundle install
