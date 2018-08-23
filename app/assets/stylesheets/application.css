@@ -49,6 +49,10 @@ button {
 }
 .emailcontent h1, p, a.delete_email{
 	margin: auto;
+	padding: 5px;
+}
+.emailcontent a {
+	background-color: transparent;
 }
 /* bootstrap overwrite :) */
 table a:not(.btn), .table a:not(.btn){
