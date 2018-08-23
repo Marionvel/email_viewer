@@ -41,11 +41,9 @@ button {
 	text-align: center;
 }
 
-.row#box{
+.emailcontent {
 	display: flex;
 	align-items: center;
-}
-.emailcontent {
 	width: 700px;
 	padding-left: 30px;
 }
