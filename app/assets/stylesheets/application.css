@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+button {
+	background-color: #2A9D8F;
+	color: white;
+}
 .read {
 	background-color: whitesmoke;
 }
@@ -37,7 +41,17 @@
 	text-align: center;
 }
 
-
+.row#box{
+	display: flex;
+	align-items: center;
+}
+.emailcontent {
+	width: 700px;
+	padding-left: 30px;
+}
+.emailcontent h1, p, a.delete_email{
+	margin: auto;
+}
 /* bootstrap overwrite :) */
 table a:not(.btn), .table a:not(.btn){
 	text-decoration: none;
