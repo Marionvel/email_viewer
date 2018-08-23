@@ -36,23 +36,16 @@ button {
 	color: #fff;
 	font-weight: bold;
 }
-
-#box{
-	text-align: center;
-}
-
 .emailcontent {
-	display: flex;
-	align-items: center;
 	width: 700px;
 	padding-left: 30px;
 }
-.emailcontent h1, p, a.delete_email{
-	margin: auto;
-	padding: 5px;
-}
 .emailcontent a {
 	background-color: transparent;
+}
+
+.btn-danger {
+	background-color: #E76F51;
 }
 /* bootstrap overwrite :) */
 table a:not(.btn), .table a:not(.btn){
