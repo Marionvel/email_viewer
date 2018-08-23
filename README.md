@@ -5,7 +5,7 @@
 Anisora & Marion
 
 ## En production
-Lien -> [Mail viewer](https://startupfoodtechhuhu.herokuapp.com/)<br />
+Lien -> [Mail viewer](https://emailviewerthp18.herokuapp.com/)<br />
 
 ## En local
 1. Se positionner sur le dossier avec le terminal
