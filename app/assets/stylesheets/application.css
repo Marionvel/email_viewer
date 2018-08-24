@@ -44,6 +44,11 @@ button {
 	background-color: transparent;
 }
 
+.row#box {
+	display: flex;
+	flex-direction: column;
+}
+
 .btn-danger {
 	background-color: #E76F51;
 }
@@ -91,10 +96,12 @@ table a:not(.btn), .table a:not(.btn){
 	width: 91vw;	
 }
 
+
+/* Uncomment to see the divs' borders */
 /*div {
 	border: 2px solid;
 	color: black;
-}*/
-
+}
+*/
 
 

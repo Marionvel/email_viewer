@@ -27,15 +27,17 @@
       <% @emails.each do |email| %>
       <div id="mail_<%= email.id %>" class="emailcontent" style="display: none;" >
         <div class="row" id="box">
-          <h1><%= email.object %></h1><br>
-          <p><%= email.body %></p>
-          <br/>
-          <%= link_to email, remote: true, method: :delete, class: 'delete_email' , data: { confirm: "I told you! Don't do it!!!" } do %>
-          <br/>
-          <div>
-            <button type="button" class="btn btn-danger">Don't do it!</button>
+          <div class="object">
+            <h1><%= email.object %></h1>
           </div>
-          <% end %>
+          <div class="body">
+            <p><%= email.body %></p>
+          </div>
+          <div class="but">
+            <%= link_to email, remote: true, method: :delete, class: 'delete_email' , data: { confirm: "Oh, you're so nasty!" } do %>
+              <button type="button" class="btn btn-danger">Don't touch me!</button>
+            <% end %>
+          </div>
         </div>
       </div>
       <% end %>
