@@ -32,7 +32,9 @@
           <br/>
           <%= link_to email, remote: true, method: :delete, class: 'delete_email' , data: { confirm: "I told you! Don't do it!!!" } do %>
           <br/>
-          <button type="button" class="btn btn-danger">Don't do it!</button>
+          <div>
+            <button type="button" class="btn btn-danger">Don't do it!</button>
+          </div>
           <% end %>
         </div>
       </div>
