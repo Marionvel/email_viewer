@@ -2,7 +2,7 @@
 
 ## Team
 
-Anisora & Marion
+Anisoara & Marion
 
 ## En production
 Lien -> [Mail viewer](https://emailviewerthp18.herokuapp.com/)<br />
